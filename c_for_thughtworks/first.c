@@ -1,5 +1,9 @@
 #include<stdio.h>
 int main(){
     printf("Hello World!");
-    return 0;
+
+
+    int a = 10;
+    printf("%d",a);
+   return 0;
 }
