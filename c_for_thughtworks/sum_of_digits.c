@@ -1,3 +1,4 @@
+// This if for sum of digits in c
 #include<stdio.h>
 int main(){
     int n,sum =0,r;
