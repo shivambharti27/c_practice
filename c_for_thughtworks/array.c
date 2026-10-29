@@ -18,14 +18,15 @@ int main(){
     printf("Enter elemet to search :");
     scanf("%d",&search);
       
-    for(int i=0;i<=length;i++){
+    for(int i=0;i<length;i++){
         if(arr[i]==search){
             printf("Element found at index :%d",i);
             break;
         }
-        else{
-            printf("Element not found");
-        }
+       
+    }
+    if(search!=arr[length-1]){
+        printf("Element not found");
     }
     return 0;
     
